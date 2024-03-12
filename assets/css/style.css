@@ -1,0 +1,141 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    width:100vw;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    /*background-color: yellowgreen;*/
+    background-color: #aae6c4;
+    color: lightskyblue;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/jAYUbVXgESSti/giphy.gif?cid=790b76110qzgra6rtd3bhcvxruyt6o1hqymyeqdvqeszeof8&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: white!important;
+}
+
+.navbar-brand{
+    font-family: 'Allerta';
+    font-size: 1.5rem;
+    color: #000000!important;
+}
+
+.nav-link{
+    color: black!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: rgb(152, 145, 145);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    max-width: 100%;
+    height: 100vh;
+    background-color: #67c553;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    max-width: 100%; /* Adjusted */
+    max-height: 70vh; /* Adjusted */
+
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+        padding: 2rem;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: rgb(38, 21, 223)!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #79d4f3;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 10vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color: whitesmoke;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+/* footer css ends here  */
+
