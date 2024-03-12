@@ -1,9 +1,9 @@
 # Basic-Banking-System
-I have created a basic dynamic website which have the basic functionality of a banking system . This website has a dummy data set in database for upto 10 customers No Login Page. No User Creation. Only transfer of money is available in this website.
+I have created a basic dynamic website with a banking system's basic functionality. This website has a dummy data set in the database for up to 10 customers. There is No Login Page. No User Creation. Only transfer of money is available on this website.
 ## Technology Stack:
 HTML
-CSS 
-JAVAScript
+, CSS 
+and JAVAScript
 
 ### To visit the site by yourself click the link below: 
 https://adityarana.tech/Basic-Banking-System/
